@@ -1,0 +1,30 @@
+
+/* map style*/
+
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+body{
+    background-color: rgb(2, 116, 209);
+}
+
+.mapdiv{
+    width: 100%;
+    margin: auto;
+}
+
+.mapdiv path {
+    fill:  rgb(0, 0, 0);
+    stroke: #676060;
+    stroke-width:.25;
+    transition: fill 0.3s;
+}
+
+.mapdiv :hover {
+    fill: #ffffff;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
